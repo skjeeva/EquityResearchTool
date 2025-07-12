@@ -13,12 +13,12 @@ class FinanceAgent:
     def __init__(self):
         self.tool = FinanceSearchTool()
         self.llm = ChatOpenAI(
-            openai_api_key=os.getenv("OPENAI_API_KEY"),
-            base_url=os.getenv("OPENAI_API_BASE"),
-            model=os.getenv("OPENAI_API_MODEL"),  # or hardcode like "mistralai/devstral-medium"
-            temperature=0.5,
-            max_tokens=800
-        )
+        openai_api_key=os.getenv("OPENAI_API_KEY"),  # or OPENROUTER_API_KEY
+        base_url=os.getenv("OPENAI_API_BASE"),       # https://openrouter.ai/api/v1
+        model="mistralai/devstral-medium",
+        temperature=0.5,
+        max_tokens=800
+    )
 
         self.df = pd.read_csv("data/equity_list.csv")
         self.df.columns = self.df.columns.str.strip().str.upper()
