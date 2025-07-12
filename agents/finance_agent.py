@@ -3,18 +3,18 @@ import pandas as pd
 import difflib
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from tools.finance_search_tool import FinanceSearchTool
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path=".env")
+load_dotenv()
 
 class FinanceAgent:
     def __init__(self):
         self.tool = FinanceSearchTool()
         self.llm = ChatOpenAI(
-        openai_api_key=os.getenv("OPENAI_API_KEY"),  # or OPENROUTER_API_KEY
-        base_url=os.getenv("OPENAI_API_BASE"),       # https://openrouter.ai/api/v1
+        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        base_url=os.getenv("OPENAI_API_BASE"),       
         model="mistralai/devstral-medium",
         temperature=0.5,
         max_tokens=800
@@ -134,7 +134,7 @@ Search Info: {search_info}
 """
         )
 
-        self.chain = LLMChain(llm=self.llm, prompt=self.prompt_template)
+        self.chain = self.prompt_template | self.llm
 
     def extract_company_from_query(self, query):
         query = query.lower().strip()
@@ -165,9 +165,6 @@ Search Info: {search_info}
         query_for_tool = company if company else question
 
         search_info = self.tool.search(query_for_tool)
-        response = self.chain.invoke({
-            "question": question,
-            "search_info": search_info
-        })
+        response = self.chain.invoke({"question": question,"search_info": search_info})
 
         return response.get('text', "⚠️ No response generated.")
