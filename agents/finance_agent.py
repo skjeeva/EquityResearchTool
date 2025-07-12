@@ -7,7 +7,7 @@ from langchain.chat_models import ChatOpenAI
 from tools.finance_search_tool import FinanceSearchTool
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(dotenv_path=".env")
 
 class FinanceAgent:
     def __init__(self):
