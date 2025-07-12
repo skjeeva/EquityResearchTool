@@ -167,4 +167,4 @@ Search Info: {search_info}
         search_info = self.tool.search(query_for_tool)
         response = self.chain.invoke({"question": question,"search_info": search_info})
 
-        return response.get('text', "⚠️ No response generated.")
+        return response.content  # ✅ Correct way to access the text of AIMessage
