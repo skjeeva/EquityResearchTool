@@ -15,7 +15,7 @@ class FinanceAgent:
         self.llm = ChatOpenAI(
         openai_api_key=os.getenv("OPENAI_API_KEY"),
         base_url=os.getenv("OPENAI_API_BASE"),       
-        model="mistralai/devstral-medium",
+        model="openai/gpt-3.5-turbo-0613",
         temperature=0.5,
         max_tokens=800
     )
