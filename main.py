@@ -1,16 +1,19 @@
 from agents.finance_agent import FinanceAgent
-from tasks.finance_task import FinanceTask
 
 def main():
-    question = input("Ask a finance-related question: ")
-    task = FinanceTask(question)
+    print(">>")
     agent = FinanceAgent()
 
-    print("\nThinking...\n")
-    result = agent.run(task.question)
+    while True:
+        question = input("Ask a finance-related question (or type 'exit' to quit): ").strip()
+        if question.lower() in ['exit', 'quit']:
+            print("👋 Exiting. Have a great day!")
+            break
 
-    print("\nAnswer:")
-    print(result)
+        response = agent.run(question)
+        print("\n📊 Financial Insight:\n")
+        print(response)
+        print("\n" + "="*80 + "\n")
 
 if __name__ == "__main__":
     main()
