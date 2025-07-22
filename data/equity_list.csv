@@ -202,4 +202,119 @@ MindMaple Business (MindMaple Inc),MINDMAPLEBUSINESS,MINDMAPLEBUSINESS.NS
 MindMaple Enterprise (MindMaple Inc),MINDMAPLEENTERPRISE,MINDMAPLEENTERPRISE.NS
 MindMaple Education (MindMaple Inc),MINDMAPLEEDUCATION,MINDMAPLEEDUCATION.NS
 MindMaple Personal (MindMaple Inc),MINDMAPLEPERSONAL,MINDMAPLEPERSONAL.NS
-MindMaple Professional (MindMaple Inc),MINDMAPLEPROFESSIONAL,MINDMAPLEPROFESSIONAL.NS
+MindMaple Professional (MindMaple Inc),MINDMAPLEPROFESSIONAL,MINDMAPLEPROFESSIONAL.NS    
+TESLA (Tesla Inc),TESLA,TESLA.NS
+SpaceX (Space Exploration Technologies Corp),SPACEX,SPACEX.NS
+Blue Origin (Blue Origin LLC),BLUEORIGIN,BLUEORIGIN.NS
+Virgin Galactic (Virgin Galactic Holdings Inc),VIRGINGALACTIC,VIRGINGALACTIC.NS
+Boeing (The Boeing Company),BOEING,BOEING.NS
+Lockheed Martin (Lockheed Martin Corporation),LOCKHEEDMARTIN,LOCKHEEDMARTIN.NS
+Northrop Grumman (Northrop Grumman Corporation),NORTHROPGRUMMAN,NORTHROPGRUMMAN.NS
+Raytheon Technologies (Raytheon Technologies Corporation),RAYTHEONTECH,RAYTHEONTECH.NS
+SpaceX Starlink (Space Exploration Technologies Corp),STARLINK,STARLINK.NS
+OneWeb (OneWeb Ltd),ONEWEB,ONEWEB.NS
+Amazon Project Kuiper (Amazon.com Inc),PROJECTKUIPER,PROJECTKUIPER.NS
+Google Loon (Alphabet Inc),GOOGLELOON,GOOGLELOON.NS
+Facebook Connectivity (Meta Platforms Inc),FACEBOOKCONNECTIVITY,FACEBOOKCONNECTIVITY.NS
+Apple Satellite (Apple Inc),APPLESATELLITE,APPLESATELLITE.NS
+GOOGLE (Google LLC),GOOGLE,GOOGLE.NS
+Microsoft Azure (Microsoft Corporation),AZURE,AZURE.NS
+IBM Cloud (IBM Corporation),IBMCLOUD,IBMCLOUD.NS
+Oracle Cloud (Oracle Corporation),ORACLECLOUD,ORACLECLOUD.NS
+Alibaba Cloud (Alibaba Group Holding Ltd),ALIBABACLOUD,ALIBABACLOUD.NS
+Tencent Cloud (Tencent Holdings Ltd),TENCENTCLOUD,TENCENTCLOUD.NS
+Huawei Cloud (Huawei Technologies Co Ltd),HUAWEICLOUD,HUAWEICLOUD.NS
+DigitalOcean (DigitalOcean Inc),DIGITALOCEAN,DIGITALOCEAN.NS
+Linode (Linode LLC),LINODE,LINODE.NS
+Vultr (Vultr Holdings Corp),VULTR,VULTR.NS
+Hetzner Cloud (Hetzner Online GmbH),HETZNER,HETZNER.NS
+OVHcloud (OVH Groupe SAS),OVHCLOUD,OVHCLOUD.NS
+Scaleway (Scaleway SAS),SCALAWEY,SCALAWEY.NS
+Kamatera (Kamatera Inc),KAMATERA,KAMATERA.NS
+DreamHost (DreamHost LLC),DREAMHOST,DREAMHOST.NS
+A2 Hosting (A2 Hosting Inc),A2HOSTING,A2HOSTING.NS
+Infosys (Infosys Limited),INFOSYS,INFOSYS.NS
+TCS (Tata Consultancy Services),TCS,TCS.NS
+Wipro (Wipro Limited),WIPRO,WIPRO.NS
+HCL Tech (HCL Technologies Limited),HCLTECH,HCLTECH.NS
+Tech Mahindra (Tech Mahindra Limited),TECHM,TECHM.NS
+L&T (Larsen & Toubro Limited),LT,LT.NS
+Mindtree (Mindtree Limited),MINDTREE,MINDTREE.NS
+Persistent Systems (Persistent Systems Limited),PERSISTENT,PERSISTENT.NS
+Mphasis (Mphasis Corporation),MPHASIS,MPHASIS.NS
+Hexaware Technologies (Hexaware Technologies Limited),HEXAWARE,HEXAWARE.NS
+Birlasoft (Birlasoft Limited),BIRLASOFT,BIRLASOFT
+Zensar Technologies (Zensar Technologies Limited),ZENSAR,ZENSAR.NS
+Cyient (Cyient Limited),CYIENT,CYIENT.NS
+Sonata Software (Sonata Software Limited),SONATA,SONATA.NS
+NIIT (NIIT Limited),NIIT,NIIT.NS
+Oracle Financial Services Software (Oracle Financial Services Software Limited),OFSS,OFSS.NS
+Tata Elxsi (Tata Elxsi Limited),TATAELXSI,T
+Infotech Enterprises (Infotech Enterprises Limited),INFOTECH,INFOTECH.NS
+Zensar Technologies (Zensar Technologies Limited),ZENSAR,ZENSAR.NS
+KPIT Technologies (KPIT Technologies Limited),KPIT,KPIT.NS
+L&T Technology Services (L&T Technology Services Limited),LTTS,LTTS.NS
+Flipkart (Flipkart Internet Pvt Ltd),FLIPKART,FLIPKART.NS
+Ola Electric (Ola Electric Mobility Pvt Ltd),OLA,OLA.NS
+Swiggy (Bundl Technologies Pvt Ltd),SWIGGY,SWIGGY.NS
+Zomato (Zomato Media Pvt Ltd),ZOMATO,ZOMATO.NS
+Paytm (One97 Communications Ltd),PAYTM,PAYTM.NS
+Nykaa (FSN E-Commerce Ventures Ltd),NYKAA,NYKAA.NS
+Delhivery (Delhivery Pvt Ltd),DELHIVERY,DELHIVERY.NS
+Policybazaar (PB Fintech Ltd),POLICYBZR,POLICYBZR.NS
+Naukri (Info Edge (India) Ltd),NAUKRI,NAUKRI.NS
+BigBasket (Supermarket Grocery Supplies Pvt Ltd),BIGBASKET,BIGBASKET.NS
+Urban Company (UrbanClap Technologies Pvt Ltd),URBANCOMPANY,URBANCOMPANY.NS
+CRED (Fintech Pvt Ltd),CRED,CRED.NS
+Razorpay (Razorpay Software Pvt Ltd),RAZORPAY,RAZORPAY.NS
+PhonePe (PhonePe Pvt Ltd),PHONEPE,PHONEPE.NS
+Moglix (Moglix Technologies Pvt Ltd),MOGLIX,MOGLIX.NS
+Myntra (Myntra Designs Pvt Ltd),MYNTRA,MYNTRA.NS
+Flipkart Wholesale (Flipkart Wholesale Pvt Ltd),FLIPKARTWHOLESALE,FLIPKARTWHOLESALE.NS
+Lenskart (Lenskart Solutions Pvt Ltd),LENSKART,LENSKART.NS
+Cure.fit (Cultfit Healthcare Pvt Ltd),CUREFIT,CUREFIT.NS
+PharmEasy (API Holdings Pvt Ltd),PHARMEASY,PHARMEASY.NS
+FirstCry (FirstCry.com),FIRSTCRY,FIRSTCRY.NS
+Licious (Licious Retail Pvt Ltd),LICIOUS,LICIOUS.NS
+Zee5 (Zee Entertainment Enterprises Ltd),ZEE5,ZEE5.NS
+SonyLIV (Sony Pictures Networks India Pvt Ltd),SONYLIV,SONYLIV.NS
+Amazon Prime Video (Amazon Seller Services Pvt Ltd),AMAZONPRIME,AMAZONPRIME.NS
+Netflix India (Netflix Services India Pvt Ltd),NETFLIXINDIA,NETFLIXINDIA.NS
+Disney+ Hotstar (Star India Pvt Ltd),DISNEYPLUS,DISNEYPLUS.NS
+Spotify India (Spotify India Pvt Ltd),SPOTIFYINDIA,SPOTIFYINDIA.NS
+YouTube (Google India Pvt Ltd),YOUTUBE,YOUTUBE.NS
+LinkedIn (Microsoft Corporation),LINKEDIN,LINKEDIN.NS
+Facebook (Meta Platforms Inc),FACEBOOK,FACEBOOK.NS
+Instagram (Meta Platforms Inc),INSTAGRAM,INSTAGRAM.NS
+Twitter (X Corp),TWITTER,TWITTER.NS
+Snapchat (Snap Inc),SNAPCHAT,SNAPCHAT.NS
+TikTok (ByteDance Ltd),TIKTOK,TIKTOK.NS
+YouTube Shorts (Google LLC),YOUTUBESHORTS,YOUTUBESHORTS.NS
+Pinterest (Pinterest Inc),PINTEREST,PINTEREST.NS
+Quora (Quora Inc),QUORA,QUORA.NS
+WhatsApp (Meta Platforms Inc),WHATSAPP,WHATSAPP.NS
+Telegram (Telegram Messenger LLP),TELEGRAM,TELEGRAM.NS
+Signal (Signal Foundation),SIGNAL,SIGNAL.NS
+Clubhouse (Alpha Exploration Co),CLUBHOUSE,CLUBHOUSE.NS
+Discord (Discord Inc),DISCORD,DISCORD.NS
+Slack (Salesforce.com Inc),SLACK,SLACK.NS
+Zoom (Zoom Video Communications Inc),ZOOM,ZOOM.NS
+Microsoft Teams (Microsoft Corporation),MICROSOFTTEAMS,MICROSOFTTEAMS.NS
+Google Meet (Alphabet Inc),GOOGLEMEET,GOOGLEMEET.NS
+Skype (Microsoft Corporation),SKYPE,SKYPE.NS
+Webex (Cisco Systems Inc),WEBEX,WEBEX.NS
+GoTo Meeting (LogMeIn Inc),GOTOMEETING,GOTOMEETING.NS
+BlueJeans (Verizon Communications Inc),BLUEJEANS,BLUEJEANS.NS
+Jitsi (8x8 Inc),JITSI,JITSI.NS
+Houseparty (Epic Games Inc),HOUSEPARTY,HOUSEPARTY.NS
+Trello (Atlassian Corporation Plc),TRELLO,TRELLO.NS
+Minda Industries (Minda Industries Limited),MINDACORP,MINDACORP.NS
+Asana (Asana Inc),ASANA,ASANA.NS
+Notion (Notion Labs Inc),NOTION,NOTION.NS
+Evernote (Evernote Corporation),EVERNOTE,EVERNOTE.NS
+Todoist (Doist Ltd),TODOIST,TODOIST.NS
+ClickUp (Mango Technologies Inc),CLICKUP,CLICKUP.NS
+Monday.com (Monday.com Ltd),MONDAY,MONDAY.NS
+Airtable (Airtable Inc),AIRTABLE,AIRTABLE.NS            
+Coda (Coda Inc),CODA,CODA.NS
+Quip (Salesforce.com Inc),QUIP,QUIP.NS

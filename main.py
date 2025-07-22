@@ -1,4 +1,7 @@
 from agents.finance_agent import FinanceAgent
+import os
+
+api_key = os.environ.get("API_KEY")
 
 def main():
     print(">>")
