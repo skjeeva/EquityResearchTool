@@ -4,7 +4,7 @@ from agents.finance_agent import FinanceAgent
 # Set page config
 st.set_page_config(page_title="Equity Research Analyst", layout="centered")
 st.title("📊 Equity Research Analyst")
-st.markdown("Ask me about any public company (e.g.,Last 5 years analysis on equity)")
+st.markdown("Ask me about any public company (e.g.,How did Infosys perform financially in the last quarter?)")
 
 # User input
 user_input = st.text_input("Ask a finance-related question")
