@@ -116,4 +116,3 @@ class FinanceSearchTool:
 
         except Exception as e:
             return f"Error fetching financial data: {e}"
-
