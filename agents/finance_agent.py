@@ -13,12 +13,12 @@ class FinanceAgent:
     def __init__(self):
         self.tool = FinanceSearchTool()
         self.llm = ChatOpenAI(
-        openai_api_key=os.getenv("OPENAI_API_KEY"),
-        base_url=os.getenv("OPENAI_API_BASE"),       
-        model="openai/gpt-3.5-turbo-0613",
-        temperature=0.5,
-        max_tokens=800
-    )
+            openai_api_key=os.getenv("OPENAI_API_KEY"),
+            base_url=os.getenv("OPENAI_API_BASE"),
+            model="gpt-3.5-turbo",
+            temperature=0.5,
+            max_tokens=800
+        )
 
         self.df = pd.read_csv("data/equity_list.csv")
         self.df.columns = self.df.columns.str.strip().str.upper()
@@ -138,23 +138,19 @@ Search Info: {search_info}
 
     def extract_company_from_query(self, query):
         query = query.lower().strip()
-
         for _, row in self.df.iterrows():
             full_name = row["NAME OF COMPANY"].lower()
             symbol = row["SYMBOL"].lower()
-
             if full_name in query or symbol in query:
                 return row["NAME OF COMPANY"]
 
         all_possible_names = self.df["NAME OF COMPANY"].tolist() + self.df["SYMBOL"].tolist()
         closest_matches = difflib.get_close_matches(query, all_possible_names, n=1, cutoff=0.6)
-
         if closest_matches:
             matched = closest_matches[0]
             row = self.df[(self.df["NAME OF COMPANY"] == matched) | (self.df["SYMBOL"] == matched)]
             if not row.empty:
                 return row.iloc[0]["NAME OF COMPANY"]
-
         return None
 
     def run(self, question: str) -> str:
@@ -163,8 +159,6 @@ Search Info: {search_info}
 
         company = self.extract_company_from_query(question)
         query_for_tool = company if company else question
-
         search_info = self.tool.search(query_for_tool)
-        response = self.chain.invoke({"question": question,"search_info": search_info})
-
-        return response.content  # ✅ Correct way to access the text of AIMessage
+        response = self.chain.invoke({"question": question, "search_info": search_info})
+        return response.content
